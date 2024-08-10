@@ -20,6 +20,5 @@ You can install the required packages using `pip`:
 ```bash
 pip install -r requirements.txt
 
-```bash
 git clone https://github.com/naveennekkanti1/ADOBE_Curetopia.git
 cd ADOBE_Curetopia
