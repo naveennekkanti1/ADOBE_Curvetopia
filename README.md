@@ -65,7 +65,7 @@ Contributions are welcome! If you'd like to contribute, please follow these step
     ```
 6. Submit a pull request to the main repository's `main` branch.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+## If you have any doubts contact:
+```bash
+    srmcorporationservices@gmail.com
+    ```
