@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curve Processing App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload and Process Curves</h1>
+        <form id="upload-form">
+            <label for="file">Choose CSV file:</label>
+            <input type="file" id="file" accept=".csv" required>
+            
+            <label for="process_type">Processing Type:</label>
+            <select id="process_type">
+                <option value="symmetry">Symmetry</option>
+                <option value="regularize">Regularize</option>
+                <option value="complete">Complete</option>
+            </select>
+            
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="results" class="results" style="display: none;">
+            <h2>Processed Results</h2>
+            <a id="download-link" href="#" download>Download Processed CSV</a>
+            <canvas id="plot-canvas"></canvas>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
