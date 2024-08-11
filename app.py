@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 app = Flask(__name__)
 
 # Ensure that these folders exist and have the right permissions on your server
-app.config['UPLOAD_FOLDER'] = os.path.join('static', 'uploads')
-app.config['PROCESSED_FOLDER'] = os.path.join('static', 'processed')
+app.config['UPLOAD_FOLDER'] = 'static/uploads'
+app.config['PROCESSED_FOLDER'] = 'static/processed'
 
 # Create folders if they do not exist
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
